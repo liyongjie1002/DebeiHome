@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14B30EADFA13B4F05F57F1A4 /* Pods_DebeiHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26650FEF2AAEFB52E219BD7E /* Pods_DebeiHomeTests.framework */; };
+		6291D181AE120EFE0985EB2D /* Pods_DebeiHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7251A6D29E22BCC17B9B32 /* Pods_DebeiHome.framework */; };
+		B7635E8B223BB0840089DEEE /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7635E8A223BB0840089DEEE /* Tool.swift */; };
+		B7635E8F223BB3CD0089DEEE /* HomeViewModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7635E8E223BB3CD0089DEEE /* HomeViewModelExtension.swift */; };
+		B7B74757223B8FB7006B7472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B74756223B8FB7006B7472 /* AppDelegate.swift */; };
+		B7B74759223B8FB7006B7472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B74758223B8FB7006B7472 /* ViewController.swift */; };
+		B7B7475C223B8FB7006B7472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B7475A223B8FB7006B7472 /* Main.storyboard */; };
+		B7B7475E223B8FB9006B7472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7B7475D223B8FB9006B7472 /* Assets.xcassets */; };
+		B7B74761223B8FB9006B7472 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B7475F223B8FB9006B7472 /* LaunchScreen.storyboard */; };
+		B7B7476C223B8FB9006B7472 /* DebeiHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B7476B223B8FB9006B7472 /* DebeiHomeTests.swift */; };
+		B7B74777223B8FB9006B7472 /* DebeiHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B74776223B8FB9006B7472 /* DebeiHomeUITests.swift */; };
+		B7B74789223B9107006B7472 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B74788223B9107006B7472 /* HomeModel.swift */; };
+		B7B7478B223B9152006B7472 /* HomeModel.json in Resources */ = {isa = PBXBuildFile; fileRef = B7B7478A223B9152006B7472 /* HomeModel.json */; };
+		B7B7478D223B93E9006B7472 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B7478C223B93E9006B7472 /* HomeViewModel.swift */; };
+		C79B50350789358BDB3BC4BE /* Pods_DebeiHomeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BFBA9F8A19883F46BDD3A4 /* Pods_DebeiHomeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7B74768223B8FB9006B7472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B7474B223B8FB7006B7472 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B74752223B8FB7006B7472;
+			remoteInfo = DebeiHome;
+		};
+		B7B74773223B8FB9006B7472 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7B7474B223B8FB7006B7472 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7B74752223B8FB7006B7472;
+			remoteInfo = DebeiHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26650FEF2AAEFB52E219BD7E /* Pods_DebeiHomeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DebeiHomeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42C48FE14FAF7CFDBD469C03 /* Pods-DebeiHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebeiHomeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DebeiHomeTests/Pods-DebeiHomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		6E12086DF0886A8C8F9FB12A /* Pods-DebeiHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebeiHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DebeiHome/Pods-DebeiHome.debug.xcconfig"; sourceTree = "<group>"; };
+		74A67D022F713B77DEBAA4D7 /* Pods-DebeiHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebeiHomeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DebeiHomeTests/Pods-DebeiHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7AE585FE3AF8623D7E331D53 /* Pods-DebeiHomeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebeiHomeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DebeiHomeUITests/Pods-DebeiHomeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DE3E02E16E8EA03BB07AA8C /* Pods-DebeiHomeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebeiHomeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DebeiHomeUITests/Pods-DebeiHomeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8E7251A6D29E22BCC17B9B32 /* Pods_DebeiHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DebeiHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7635E8A223BB0840089DEEE /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		B7635E8E223BB3CD0089DEEE /* HomeViewModelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelExtension.swift; sourceTree = "<group>"; };
+		B7B74753223B8FB7006B7472 /* DebeiHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebeiHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B74756223B8FB7006B7472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7B74758223B8FB7006B7472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7B7475B223B8FB7006B7472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7B7475D223B8FB9006B7472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7B74760223B8FB9006B7472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7B74762223B8FB9006B7472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B74767223B8FB9006B7472 /* DebeiHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebeiHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B7476B223B8FB9006B7472 /* DebeiHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebeiHomeTests.swift; sourceTree = "<group>"; };
+		B7B7476D223B8FB9006B7472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B74772223B8FB9006B7472 /* DebeiHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DebeiHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7B74776223B8FB9006B7472 /* DebeiHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebeiHomeUITests.swift; sourceTree = "<group>"; };
+		B7B74778223B8FB9006B7472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B74788223B9107006B7472 /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		B7B7478A223B9152006B7472 /* HomeModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HomeModel.json; sourceTree = "<group>"; };
+		B7B7478C223B93E9006B7472 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		C8FC5DD57DED9E8A017E19B5 /* Pods-DebeiHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebeiHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-DebeiHome/Pods-DebeiHome.release.xcconfig"; sourceTree = "<group>"; };
+		E2BFBA9F8A19883F46BDD3A4 /* Pods_DebeiHomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DebeiHomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7B74750223B8FB7006B7472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6291D181AE120EFE0985EB2D /* Pods_DebeiHome.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B74764223B8FB9006B7472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B30EADFA13B4F05F57F1A4 /* Pods_DebeiHomeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B7476F223B8FB9006B7472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79B50350789358BDB3BC4BE /* Pods_DebeiHomeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66376672A4D9970146E494E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E12086DF0886A8C8F9FB12A /* Pods-DebeiHome.debug.xcconfig */,
+				C8FC5DD57DED9E8A017E19B5 /* Pods-DebeiHome.release.xcconfig */,
+				74A67D022F713B77DEBAA4D7 /* Pods-DebeiHomeTests.debug.xcconfig */,
+				42C48FE14FAF7CFDBD469C03 /* Pods-DebeiHomeTests.release.xcconfig */,
+				7AE585FE3AF8623D7E331D53 /* Pods-DebeiHomeUITests.debug.xcconfig */,
+				8DE3E02E16E8EA03BB07AA8C /* Pods-DebeiHomeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A869D26101947BAC8290D78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E7251A6D29E22BCC17B9B32 /* Pods_DebeiHome.framework */,
+				26650FEF2AAEFB52E219BD7E /* Pods_DebeiHomeTests.framework */,
+				E2BFBA9F8A19883F46BDD3A4 /* Pods_DebeiHomeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B7635E89223BB07A0089DEEE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B7635E8A223BB0840089DEEE /* Tool.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		B7B7474A223B8FB7006B7472 = {
+			isa = PBXGroup;
+			children = (
+				B7B74755223B8FB7006B7472 /* DebeiHome */,
+				B7B7476A223B8FB9006B7472 /* DebeiHomeTests */,
+				B7B74775223B8FB9006B7472 /* DebeiHomeUITests */,
+				B7B74754223B8FB7006B7472 /* Products */,
+				66376672A4D9970146E494E6 /* Pods */,
+				7A869D26101947BAC8290D78 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B7B74754223B8FB7006B7472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7B74753223B8FB7006B7472 /* DebeiHome.app */,
+				B7B74767223B8FB9006B7472 /* DebeiHomeTests.xctest */,
+				B7B74772223B8FB9006B7472 /* DebeiHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7B74755223B8FB7006B7472 /* DebeiHome */ = {
+			isa = PBXGroup;
+			children = (
+				B7B74756223B8FB7006B7472 /* AppDelegate.swift */,
+				B7B7478A223B9152006B7472 /* HomeModel.json */,
+				B7635E89223BB07A0089DEEE /* Tools */,
+				B7B74787223B903D006B7472 /* Home */,
+				B7B7475A223B8FB7006B7472 /* Main.storyboard */,
+				B7B7475D223B8FB9006B7472 /* Assets.xcassets */,
+				B7B7475F223B8FB9006B7472 /* LaunchScreen.storyboard */,
+				B7B74762223B8FB9006B7472 /* Info.plist */,
+			);
+			path = DebeiHome;
+			sourceTree = "<group>";
+		};
+		B7B7476A223B8FB9006B7472 /* DebeiHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7B7476B223B8FB9006B7472 /* DebeiHomeTests.swift */,
+				B7B7476D223B8FB9006B7472 /* Info.plist */,
+			);
+			path = DebeiHomeTests;
+			sourceTree = "<group>";
+		};
+		B7B74775223B8FB9006B7472 /* DebeiHomeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7B74776223B8FB9006B7472 /* DebeiHomeUITests.swift */,
+				B7B74778223B8FB9006B7472 /* Info.plist */,
+			);
+			path = DebeiHomeUITests;
+			sourceTree = "<group>";
+		};
+		B7B74784223B902D006B7472 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B7B74785223B9032006B7472 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7B74788223B9107006B7472 /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B7B74786223B9038006B7472 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B7B7478C223B93E9006B7472 /* HomeViewModel.swift */,
+				B7635E8E223BB3CD0089DEEE /* HomeViewModelExtension.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B7B74787223B903D006B7472 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B7B74758223B8FB7006B7472 /* ViewController.swift */,
+				B7B74786223B9038006B7472 /* ViewModel */,
+				B7B74785223B9032006B7472 /* Model */,
+				B7B74784223B902D006B7472 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7B74752223B8FB7006B7472 /* DebeiHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B7477B223B8FB9006B7472 /* Build configuration list for PBXNativeTarget "DebeiHome" */;
+			buildPhases = (
+				080E21A896BE9F8657404E48 /* [CP] Check Pods Manifest.lock */,
+				B7B7474F223B8FB7006B7472 /* Sources */,
+				B7B74750223B8FB7006B7472 /* Frameworks */,
+				B7B74751223B8FB7006B7472 /* Resources */,
+				54674AB3AACE69E4A8B0637E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DebeiHome;
+			productName = DebeiHome;
+			productReference = B7B74753223B8FB7006B7472 /* DebeiHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7B74766223B8FB9006B7472 /* DebeiHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B7477E223B8FB9006B7472 /* Build configuration list for PBXNativeTarget "DebeiHomeTests" */;
+			buildPhases = (
+				96CC13B7693415F9403978FA /* [CP] Check Pods Manifest.lock */,
+				B7B74763223B8FB9006B7472 /* Sources */,
+				B7B74764223B8FB9006B7472 /* Frameworks */,
+				B7B74765223B8FB9006B7472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7B74769223B8FB9006B7472 /* PBXTargetDependency */,
+			);
+			name = DebeiHomeTests;
+			productName = DebeiHomeTests;
+			productReference = B7B74767223B8FB9006B7472 /* DebeiHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7B74771223B8FB9006B7472 /* DebeiHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7B74781223B8FB9006B7472 /* Build configuration list for PBXNativeTarget "DebeiHomeUITests" */;
+			buildPhases = (
+				E8625E66C07675EE97D0EF3C /* [CP] Check Pods Manifest.lock */,
+				B7B7476E223B8FB9006B7472 /* Sources */,
+				B7B7476F223B8FB9006B7472 /* Frameworks */,
+				B7B74770223B8FB9006B7472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7B74774223B8FB9006B7472 /* PBXTargetDependency */,
+			);
+			name = DebeiHomeUITests;
+			productName = DebeiHomeUITests;
+			productReference = B7B74772223B8FB9006B7472 /* DebeiHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7B7474B223B8FB7006B7472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Y了个J";
+				TargetAttributes = {
+					B7B74752223B8FB7006B7472 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					B7B74766223B8FB9006B7472 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B7B74752223B8FB7006B7472;
+					};
+					B7B74771223B8FB9006B7472 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = B7B74752223B8FB7006B7472;
+					};
+				};
+			};
+			buildConfigurationList = B7B7474E223B8FB7006B7472 /* Build configuration list for PBXProject "DebeiHome" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7B7474A223B8FB7006B7472;
+			productRefGroup = B7B74754223B8FB7006B7472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7B74752223B8FB7006B7472 /* DebeiHome */,
+				B7B74766223B8FB9006B7472 /* DebeiHomeTests */,
+				B7B74771223B8FB9006B7472 /* DebeiHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7B74751223B8FB7006B7472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B7478B223B9152006B7472 /* HomeModel.json in Resources */,
+				B7B74761223B8FB9006B7472 /* LaunchScreen.storyboard in Resources */,
+				B7B7475E223B8FB9006B7472 /* Assets.xcassets in Resources */,
+				B7B7475C223B8FB7006B7472 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B74765223B8FB9006B7472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B74770223B8FB9006B7472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		080E21A896BE9F8657404E48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DebeiHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54674AB3AACE69E4A8B0637E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DebeiHome/Pods-DebeiHome-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HandyJSON/HandyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HandyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DebeiHome/Pods-DebeiHome-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96CC13B7693415F9403978FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DebeiHomeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8625E66C07675EE97D0EF3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DebeiHomeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7B7474F223B8FB7006B7472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B74759223B8FB7006B7472 /* ViewController.swift in Sources */,
+				B7635E8F223BB3CD0089DEEE /* HomeViewModelExtension.swift in Sources */,
+				B7B74757223B8FB7006B7472 /* AppDelegate.swift in Sources */,
+				B7B74789223B9107006B7472 /* HomeModel.swift in Sources */,
+				B7635E8B223BB0840089DEEE /* Tool.swift in Sources */,
+				B7B7478D223B93E9006B7472 /* HomeViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B74763223B8FB9006B7472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B7476C223B8FB9006B7472 /* DebeiHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B7476E223B8FB9006B7472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B74777223B8FB9006B7472 /* DebeiHomeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7B74769223B8FB9006B7472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7B74752223B8FB7006B7472 /* DebeiHome */;
+			targetProxy = B7B74768223B8FB9006B7472 /* PBXContainerItemProxy */;
+		};
+		B7B74774223B8FB9006B7472 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7B74752223B8FB7006B7472 /* DebeiHome */;
+			targetProxy = B7B74773223B8FB9006B7472 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7B7475A223B8FB7006B7472 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7B7475B223B8FB7006B7472 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7B7475F223B8FB9006B7472 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7B74760223B8FB9006B7472 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7B74779223B8FB9006B7472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7B7477A223B8FB9006B7472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7B7477C223B8FB9006B7472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E12086DF0886A8C8F9FB12A /* Pods-DebeiHome.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNF25R344F;
+				INFOPLIST_FILE = DebeiHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.demo.DebeiHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7B7477D223B8FB9006B7472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8FC5DD57DED9E8A017E19B5 /* Pods-DebeiHome.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KNF25R344F;
+				INFOPLIST_FILE = DebeiHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.demo.DebeiHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7B7477F223B8FB9006B7472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A67D022F713B77DEBAA4D7 /* Pods-DebeiHomeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DebeiHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.demo.DebeiHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DebeiHome.app/DebeiHome";
+			};
+			name = Debug;
+		};
+		B7B74780223B8FB9006B7472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C48FE14FAF7CFDBD469C03 /* Pods-DebeiHomeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DebeiHomeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.demo.DebeiHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DebeiHome.app/DebeiHome";
+			};
+			name = Release;
+		};
+		B7B74782223B8FB9006B7472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE585FE3AF8623D7E331D53 /* Pods-DebeiHomeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DebeiHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.demo.DebeiHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DebeiHome;
+			};
+			name = Debug;
+		};
+		B7B74783223B8FB9006B7472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DE3E02E16E8EA03BB07AA8C /* Pods-DebeiHomeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DebeiHomeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyj.demo.DebeiHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DebeiHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7B7474E223B8FB7006B7472 /* Build configuration list for PBXProject "DebeiHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B74779223B8FB9006B7472 /* Debug */,
+				B7B7477A223B8FB9006B7472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B7477B223B8FB9006B7472 /* Build configuration list for PBXNativeTarget "DebeiHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B7477C223B8FB9006B7472 /* Debug */,
+				B7B7477D223B8FB9006B7472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B7477E223B8FB9006B7472 /* Build configuration list for PBXNativeTarget "DebeiHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B7477F223B8FB9006B7472 /* Debug */,
+				B7B74780223B8FB9006B7472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7B74781223B8FB9006B7472 /* Build configuration list for PBXNativeTarget "DebeiHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7B74782223B8FB9006B7472 /* Debug */,
+				B7B74783223B8FB9006B7472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7B7474B223B8FB7006B7472 /* Project object */;
+}

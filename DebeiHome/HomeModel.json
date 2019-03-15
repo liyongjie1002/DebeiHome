@@ -1,0 +1,154 @@
+{
+    "success": true,
+    "code": "200",
+    "message": "请求成功",
+    "data": {
+        "solidData": [
+            {
+                "id": 17,
+                "disabled": false,
+                "describe": "轮播图测试",
+                "cover": "https://passporttemporary.muheda.com/debei/upload/slide/18080616045484990240.png",
+                "linkType": null,
+                "link": null,
+                "createTime": "2018-08-06 16:05:11",
+                "onlineTime": "2018-08-06 16:06:40",
+                "offlineTime": "2018-09-06 16:04:40"
+            }
+        ],
+        "consumptionList": [],
+        "noticeData": [
+            {
+                "id": 35,
+                "createTime": 1533541649000,
+                "disabled": false,
+                "messageStatus": 2,
+                "messageType": 2,
+                "messageDescription": "20180806公告消息",
+                "linkType": null,
+                "linkUrl": null,
+                "sendTime": 1533541680000,
+                "endTime": null,
+                "title": null
+            },
+            {
+                "id": 34,
+                "createTime": 1533277229000,
+                "disabled": false,
+                "messageStatus": 2,
+                "messageType": 2,
+                "messageDescription": "sdsadas",
+                "linkType": null,
+                "linkUrl": null,
+                "sendTime": 1533363621000,
+                "endTime": null,
+                "title": null
+            },
+            {
+                "id": 33,
+                "createTime": 1533189593000,
+                "disabled": false,
+                "messageStatus": 2,
+                "messageType": 2,
+                "messageDescription": "公告消息测试1",
+                "linkType": null,
+                "linkUrl": null,
+                "sendTime": 1533189599000,
+                "endTime": null,
+                "title": null
+            },
+            {
+                "id": 30,
+                "createTime": 1533180710000,
+                "disabled": false,
+                "messageStatus": 2,
+                "messageType": 2,
+                "messageDescription": "公告消息测试",
+                "linkType": null,
+                "linkUrl": null,
+                "sendTime": 1533180758000,
+                "endTime": null,
+                "title": null
+            }
+        ],
+        "docList": [
+            {
+                "content": "https://passporttemporary.muheda.com//api/debei/score/user/weight/explain.html?address=platform_security",
+                "id": 1,
+                "createTime": 1536422400000,
+                "icon": "https://passporttemporary.muheda.com//images/guaranteedoc/safeApp.png",
+                "title": "平台安全",
+                "lastUpdateTime": 1528214400000,
+                "subtitle": "平台安全",
+                "disabled": 1,
+                "sortNum": 1
+            },
+            {
+                "content": "https://passporttemporary.muheda.com//api/debei/score/user/weight/explain.html?address=technical_protection",
+                "id": 2,
+                "createTime": 1536422400000,
+                "icon": "https://passporttemporary.muheda.com//images/guaranteedoc/technology.png",
+                "title": "技术保护",
+                "lastUpdateTime": 1528214400000,
+                "subtitle": "技术保护",
+                "disabled": 1,
+                "sortNum": 2
+            },
+            {
+                "content": "https://passporttemporary.muheda.com//api/debei/score/user/weight/explain.html?address=abidance_supervise",
+                "id": 3,
+                "createTime": 1536422400000,
+                "icon": "https://passporttemporary.muheda.com//images/guaranteedoc/carmessage.png",
+                "title": "遵守监管",
+                "lastUpdateTime": 1528214400000,
+                "subtitle": "遵守监管",
+                "disabled": 1,
+                "sortNum": 3
+            }
+        ],
+        "dataLives": [
+            {
+                "appName": "安全行车",
+                "id": 3,
+                "createTime": "2018-05-19 15:10:47",
+                "cover": "封面地址",
+                "appIcon": "https://passporttemporary.muheda.com//images/datalive/safedrvie.png",
+                "onlineTime": "2018-05-19 15:10:49",
+                "describe": "安全行车",
+                "link": "/api/debei/score/user/weight/explain.html?address=platform_security",
+                "offlineTime": "2018-05-19 15:10:52",
+                "appTitle": "安全行车",
+                "appType": 3,
+                "disabled": false
+            },
+            {
+                "appName": "健步",
+                "id": 2,
+                "createTime": "2018-05-19 15:09:09",
+                "cover": "封面地址",
+                "appIcon": "https://passporttemporary.muheda.com//images/datalive/stepHelth.png",
+                "onlineTime": "2018-05-19 15:10:41",
+                "describe": "健步",
+                "link": "/api/debei/score/user/weight/explain.html?address=welfare",
+                "offlineTime": "2018-05-19 15:10:44",
+                "appTitle": "健步小程序",
+                "appType": 2,
+                "disabled": false
+            }
+        ],
+        "totalSubsidyNum": 0,
+        "msgCount": 0,
+        "virtualData": {
+            "id": 1,
+            "totalUserNumSort": "167.29万人",
+            "increaseUserNum": 1233924,
+            "totalUserNum": 1672855,
+            "totalUploadNum": 8370699,
+            "totalAmountSort": "585.50万元",
+            "totalAmount": 5854992,
+            "increaseUploadNum": 3352134,
+            "totalUploadNumSort": "837.07万次"
+        },
+        "isSignIn": "0"
+    }
+}
