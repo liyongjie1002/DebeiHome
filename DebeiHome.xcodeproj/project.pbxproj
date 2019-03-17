@@ -10,7 +10,7 @@
 		14B30EADFA13B4F05F57F1A4 /* Pods_DebeiHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26650FEF2AAEFB52E219BD7E /* Pods_DebeiHomeTests.framework */; };
 		6291D181AE120EFE0985EB2D /* Pods_DebeiHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7251A6D29E22BCC17B9B32 /* Pods_DebeiHome.framework */; };
 		B7635E8B223BB0840089DEEE /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7635E8A223BB0840089DEEE /* Tool.swift */; };
-		B7635E8F223BB3CD0089DEEE /* HomeViewModelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7635E8E223BB3CD0089DEEE /* HomeViewModelExtension.swift */; };
+		B7635E8F223BB3CD0089DEEE /* HomeViewModel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7635E8E223BB3CD0089DEEE /* HomeViewModel+Extension.swift */; };
 		B7B74757223B8FB7006B7472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B74756223B8FB7006B7472 /* AppDelegate.swift */; };
 		B7B74759223B8FB7006B7472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B74758223B8FB7006B7472 /* ViewController.swift */; };
 		B7B7475C223B8FB7006B7472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B7475A223B8FB7006B7472 /* Main.storyboard */; };
@@ -22,6 +22,8 @@
 		B7B7478B223B9152006B7472 /* HomeModel.json in Resources */ = {isa = PBXBuildFile; fileRef = B7B7478A223B9152006B7472 /* HomeModel.json */; };
 		B7B7478D223B93E9006B7472 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B7478C223B93E9006B7472 /* HomeViewModel.swift */; };
 		C79B50350789358BDB3BC4BE /* Pods_DebeiHomeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BFBA9F8A19883F46BDD3A4 /* Pods_DebeiHomeUITests.framework */; };
+		D4BC6DD7223E6E4700AB80F0 /* CommonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BC6DD6223E6E4700AB80F0 /* CommonCell.swift */; };
+		D4D0D892223CA28E009D2991 /* TitleHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D0D891223CA28E009D2991 /* TitleHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +52,7 @@
 		8DE3E02E16E8EA03BB07AA8C /* Pods-DebeiHomeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebeiHomeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DebeiHomeUITests/Pods-DebeiHomeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8E7251A6D29E22BCC17B9B32 /* Pods_DebeiHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DebeiHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7635E8A223BB0840089DEEE /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
-		B7635E8E223BB3CD0089DEEE /* HomeViewModelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelExtension.swift; sourceTree = "<group>"; };
+		B7635E8E223BB3CD0089DEEE /* HomeViewModel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewModel+Extension.swift"; sourceTree = "<group>"; };
 		B7B74753223B8FB7006B7472 /* DebeiHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebeiHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B74756223B8FB7006B7472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7B74758223B8FB7006B7472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,8 @@
 		B7B7478A223B9152006B7472 /* HomeModel.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = HomeModel.json; sourceTree = "<group>"; };
 		B7B7478C223B93E9006B7472 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		C8FC5DD57DED9E8A017E19B5 /* Pods-DebeiHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebeiHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-DebeiHome/Pods-DebeiHome.release.xcconfig"; sourceTree = "<group>"; };
+		D4BC6DD6223E6E4700AB80F0 /* CommonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonCell.swift; sourceTree = "<group>"; };
+		D4D0D891223CA28E009D2991 /* TitleHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleHeaderView.swift; sourceTree = "<group>"; };
 		E2BFBA9F8A19883F46BDD3A4 /* Pods_DebeiHomeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DebeiHomeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -185,13 +189,6 @@
 			path = DebeiHomeUITests;
 			sourceTree = "<group>";
 		};
-		B7B74784223B902D006B7472 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
 		B7B74785223B9032006B7472 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,7 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				B7B7478C223B93E9006B7472 /* HomeViewModel.swift */,
-				B7635E8E223BB3CD0089DEEE /* HomeViewModelExtension.swift */,
+				B7635E8E223BB3CD0089DEEE /* HomeViewModel+Extension.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -212,12 +209,21 @@
 		B7B74787223B903D006B7472 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				D4D0D890223CA27E009D2991 /* Views */,
 				B7B74758223B8FB7006B7472 /* ViewController.swift */,
 				B7B74786223B9038006B7472 /* ViewModel */,
 				B7B74785223B9032006B7472 /* Model */,
-				B7B74784223B902D006B7472 /* Views */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		D4D0D890223CA27E009D2991 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D4D0D891223CA28E009D2991 /* TitleHeaderView.swift */,
+				D4BC6DD6223E6E4700AB80F0 /* CommonCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -448,8 +454,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7B74759223B8FB7006B7472 /* ViewController.swift in Sources */,
-				B7635E8F223BB3CD0089DEEE /* HomeViewModelExtension.swift in Sources */,
+				B7635E8F223BB3CD0089DEEE /* HomeViewModel+Extension.swift in Sources */,
+				D4D0D892223CA28E009D2991 /* TitleHeaderView.swift in Sources */,
 				B7B74757223B8FB7006B7472 /* AppDelegate.swift in Sources */,
+				D4BC6DD7223E6E4700AB80F0 /* CommonCell.swift in Sources */,
 				B7B74789223B9107006B7472 /* HomeModel.swift in Sources */,
 				B7635E8B223BB0840089DEEE /* Tool.swift in Sources */,
 				B7B7478D223B93E9006B7472 /* HomeViewModel.swift in Sources */,
@@ -629,7 +637,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KNF25R344F;
+				DEVELOPMENT_TEAM = U37C5U97JM;
 				INFOPLIST_FILE = DebeiHome/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -649,7 +657,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KNF25R344F;
+				DEVELOPMENT_TEAM = U37C5U97JM;
 				INFOPLIST_FILE = DebeiHome/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
