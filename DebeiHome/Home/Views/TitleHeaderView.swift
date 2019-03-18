@@ -9,6 +9,18 @@
 import UIKit
 
 class TitleHeaderView: UICollectionReusableView {
+    var itemType: HomeViewModelItemType? {
+        didSet {
+            if itemType == .dataAsset {
+                tipTitle = "提示"
+            }else if itemType == .debeiIndex {
+                tipTitle = "问号"
+            }else {
+                tipButton.isHidden = true
+            }
+        }
+    }
+    
     var headerTitle: String? {
         didSet {
             titleLabel.text = headerTitle

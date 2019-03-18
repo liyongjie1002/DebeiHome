@@ -34,13 +34,7 @@ extension HomeViewModel: UICollectionViewDataSource, UICollectionViewDelegateFlo
         if kind == UICollectionView.elementKindSectionHeader {
             let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: "header", for: indexPath) as! TitleHeaderView
             view.headerTitle = item.sectionTitle
-            
-            if item.itemType == .dataAsset {
-                view.tipTitle = "箭头"
-            }
-            if item.itemType == .debeiIndex {
-                view.tipTitle = "问号"
-            }
+            view.itemType = item.itemType
             return view
         }
         return UICollectionReusableView()
