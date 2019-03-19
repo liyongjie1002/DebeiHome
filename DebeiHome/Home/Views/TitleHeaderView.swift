@@ -26,17 +26,17 @@ class TitleHeaderView: UICollectionReusableView {
             titleLabel.text = headerTitle
         }
     }
-    var tipTitle: String? {
+    private var tipTitle: String? {
         didSet {
             tipButton.isHidden = false
             tipButton.setTitle(tipTitle, for: .normal)
         }
     }
-    lazy var titleLabel: UILabel = {
+    private lazy var titleLabel: UILabel = {
         let label = UILabel(frame: CGRect(x: 0, y: 0, width: self.frame.size.width - 100, height: self.frame.size.height))
         return label
     }()
-    lazy var tipButton: UIButton = {
+    private lazy var tipButton: UIButton = {
         let button = UIButton(type: .custom)
         button.setTitle("提示", for: .normal)
         button.setTitleColor(.black, for: .normal)
