@@ -19,7 +19,7 @@ enum HomeViewModelItemType {
     case platform
     case footer
 }
-protocol HomeViewModelItem {
+protocol HomeViewModelItemProtocol {
     var itemType: HomeViewModelItemType { get }
     var sectionTitle: String { get }
     var itemSize: CGSize { get }
@@ -28,9 +28,10 @@ protocol HomeViewModelItem {
 }
 
 class HomeViewModel: NSObject {
-    var items = [HomeViewModelItem]()
-    override init() {
-        super.init()
+    var items = [HomeViewModelItemProtocol]()
+    // 网络请求
+    func requestData(callBack: ([HomeViewModelItemProtocol]) -> Void) {
+        
         let data = dataFromFile("HomeModel")
         let json = String(data: data!, encoding: .utf8)
         if let homeModel = JSONDeserializer<HomeModel>.deserializeFrom(json: json!, designatedPath: "data") {
@@ -61,11 +62,17 @@ class HomeViewModel: NSObject {
             
             let footerItem = HomeViewModelFooterItem()
             items.append(footerItem)
+            
+            callBack(items)
         }
-        
+    }
+    
+    override init() {
+        super.init()
+       
     }
 }
-class HomeViewModelHeaderItem: HomeViewModelItem {
+class HomeViewModelHeaderItem: HomeViewModelItemProtocol {
     
     var itemSize: CGSize {
         return CGSize(width: kScreenWidth, height: 400)
@@ -82,7 +89,7 @@ class HomeViewModelHeaderItem: HomeViewModelItem {
     }
 
 }
-class HomeViewModelAssetItem: HomeViewModelItem {
+class HomeViewModelAssetItem: HomeViewModelItemProtocol {
     var itemType: HomeViewModelItemType {
         return .dataAsset
     }
@@ -105,7 +112,7 @@ class HomeViewModelAssetItem: HomeViewModelItem {
         self.totalSubsidyNum = totalSubsidyNum
     }
 }
-class HomeViewModelDataLivesItem: HomeViewModelItem {
+class HomeViewModelDataLivesItem: HomeViewModelItemProtocol {
     var itemType: HomeViewModelItemType {
         return .dataLives
     }
@@ -129,7 +136,7 @@ class HomeViewModelDataLivesItem: HomeViewModelItem {
     }
     
 }
-class HomeViewModelDataServiceItem: HomeViewModelItem {
+class HomeViewModelDataServiceItem: HomeViewModelItemProtocol {
     var itemType: HomeViewModelItemType {
         return .dataService
     }
@@ -148,7 +155,7 @@ class HomeViewModelDataServiceItem: HomeViewModelItem {
     
     
 }
-class HomeViewModelDebeiIndexItem: HomeViewModelItem {
+class HomeViewModelDebeiIndexItem: HomeViewModelItemProtocol {
     var itemType: HomeViewModelItemType {
         return .debeiIndex
     }
@@ -165,7 +172,7 @@ class HomeViewModelDebeiIndexItem: HomeViewModelItem {
         return 1
     }
 }
-class HomeViewModelPlatformItem: HomeViewModelItem {
+class HomeViewModelPlatformItem: HomeViewModelItemProtocol {
     
     var itemType: HomeViewModelItemType {
         return .platform
@@ -190,7 +197,7 @@ class HomeViewModelPlatformItem: HomeViewModelItem {
     }
 
 }
-class HomeViewModelFooterItem: HomeViewModelItem {
+class HomeViewModelFooterItem: HomeViewModelItemProtocol {
     var itemType: HomeViewModelItemType {
         return .footer
     }

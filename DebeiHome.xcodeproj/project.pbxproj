@@ -10,7 +10,7 @@
 		14B30EADFA13B4F05F57F1A4 /* Pods_DebeiHomeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26650FEF2AAEFB52E219BD7E /* Pods_DebeiHomeTests.framework */; };
 		6291D181AE120EFE0985EB2D /* Pods_DebeiHome.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7251A6D29E22BCC17B9B32 /* Pods_DebeiHome.framework */; };
 		B7635E8B223BB0840089DEEE /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7635E8A223BB0840089DEEE /* Tool.swift */; };
-		B7635E8F223BB3CD0089DEEE /* HomeViewModel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7635E8E223BB3CD0089DEEE /* HomeViewModel+Extension.swift */; };
+		B764AB6E224C76C200C71122 /* ViewController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B764AB6D224C76C200C71122 /* ViewController+UICollectionView.swift */; };
 		B7B74757223B8FB7006B7472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B74756223B8FB7006B7472 /* AppDelegate.swift */; };
 		B7B74759223B8FB7006B7472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B74758223B8FB7006B7472 /* ViewController.swift */; };
 		B7B7475C223B8FB7006B7472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7B7475A223B8FB7006B7472 /* Main.storyboard */; };
@@ -52,7 +52,7 @@
 		8DE3E02E16E8EA03BB07AA8C /* Pods-DebeiHomeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DebeiHomeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DebeiHomeUITests/Pods-DebeiHomeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8E7251A6D29E22BCC17B9B32 /* Pods_DebeiHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DebeiHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7635E8A223BB0840089DEEE /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
-		B7635E8E223BB3CD0089DEEE /* HomeViewModel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewModel+Extension.swift"; sourceTree = "<group>"; };
+		B764AB6D224C76C200C71122 /* ViewController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+UICollectionView.swift"; sourceTree = "<group>"; };
 		B7B74753223B8FB7006B7472 /* DebeiHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DebeiHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7B74756223B8FB7006B7472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7B74758223B8FB7006B7472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -201,7 +201,6 @@
 			isa = PBXGroup;
 			children = (
 				B7B7478C223B93E9006B7472 /* HomeViewModel.swift */,
-				B7635E8E223BB3CD0089DEEE /* HomeViewModel+Extension.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -211,6 +210,7 @@
 			children = (
 				D4D0D890223CA27E009D2991 /* Views */,
 				B7B74758223B8FB7006B7472 /* ViewController.swift */,
+				B764AB6D224C76C200C71122 /* ViewController+UICollectionView.swift */,
 				B7B74786223B9038006B7472 /* ViewModel */,
 				B7B74785223B9032006B7472 /* Model */,
 			);
@@ -454,7 +454,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7B74759223B8FB7006B7472 /* ViewController.swift in Sources */,
-				B7635E8F223BB3CD0089DEEE /* HomeViewModel+Extension.swift in Sources */,
+				B764AB6E224C76C200C71122 /* ViewController+UICollectionView.swift in Sources */,
 				D4D0D892223CA28E009D2991 /* TitleHeaderView.swift in Sources */,
 				B7B74757223B8FB7006B7472 /* AppDelegate.swift in Sources */,
 				D4BC6DD7223E6E4700AB80F0 /* CommonCell.swift in Sources */,

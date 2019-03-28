@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     let homeViewModel = HomeViewModel()
+    var dataArr = [HomeViewModelItemProtocol]()
     
     lazy var contentView: UIView = {
         let view = UIView(frame: self.view.bounds)
@@ -22,8 +23,8 @@ class ViewController: UIViewController {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
         let collectionView = UICollectionView(frame: contentView.bounds, collectionViewLayout: layout)
-        collectionView.dataSource = homeViewModel
-        collectionView.delegate = homeViewModel
+        collectionView.dataSource = self
+        collectionView.delegate = self
         collectionView.backgroundColor = .white
         collectionView.register(CommonCell.self, forCellWithReuseIdentifier: "commoncell")
         collectionView.register(TitleHeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: "header")
@@ -34,6 +35,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         configUI()
+        homeViewModel.requestData { (result) in
+            dataArr = result
+        }
     }
     // 配置视图
     private func configUI() {
